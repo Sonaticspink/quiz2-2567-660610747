@@ -16,9 +16,9 @@ export default function Reply({ ImagePath, username, replyTitle, likes } : any) 
     <span className="fw-semibold">{username}</span>
     <br />
     <span>{replyTitle}</span>
-    <div className="d-flex align-items-center gap-1">
+    <div className={ "d-flex align-items-center gap-1"}>
       <img src="/like.svg" width={20}></img>
-      <span className= {(likes == 0) ? "":"text-muted"}>{likes} คน</span>
+      <span className= {"text-muted"}>{likes} คน</span>
     </div>
   </div>
 </div>
