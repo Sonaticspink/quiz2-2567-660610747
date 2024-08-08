@@ -1,6 +1,6 @@
 "use client";
 
-export default function Reply({ ImagePath, username, replyTitle, likes }) {
+export default function Reply({ ImagePath, username, replyTitle, likes } : any) {
   return <div className="d-flex gap-2 my-2 ps-5">
   <img
     src={ImagePath}
